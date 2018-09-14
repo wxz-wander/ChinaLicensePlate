@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d6d9de"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:id="@+id/llt_number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btb_1"
+            android:text="1"
+            android:enabled="false"
+            style="@style/btnNumberStyle"
+            android:layout_marginRight="6dp"/>
+        <Button
+            android:id="@+id/btb_2"
+            android:text="2"
+            android:enabled="false"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_3"
+            android:text="3"
+            android:enabled="false"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_4"
+            android:text="4"
+            android:enabled="false"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_5"
+            android:text="5"
+            android:enabled="false"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle"/>
+        <Button
+            android:id="@+id/btb_6"
+            android:text="6"
+            android:enabled="false"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_7"
+            android:text="7"
+            android:enabled="false"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_8"
+            android:text="8"
+            android:enabled="false"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_9"
+            android:text="9"
+            android:enabled="false"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle"/>
+        <Button
+            android:id="@+id/btb_10"
+            android:text="0"
+            android:enabled="false"
+            style="@style/btnNumberStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llt_number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btb_11"
+            android:text="A"
+            style="@style/btnNumberStyle"
+            android:layout_marginRight="6dp"/>
+        <Button
+            android:id="@+id/btb_12"
+            android:text="B"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_13"
+            android:text="C"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_14"
+            android:text="D"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_15"
+            android:text="E"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle"/>
+        <Button
+            android:id="@+id/btb_16"
+            android:text="F"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_17"
+            android:text="G"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_18"
+            android:text="H"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_19"
+            android:text="J"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle"/>
+        <Button
+            android:id="@+id/btb_20"
+            android:text="K"
+            style="@style/btnNumberStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llt_number3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btb_21"
+            android:text="L"
+            style="@style/btnNumberStyle"
+            android:layout_marginRight="6dp"/>
+        <Button
+            android:id="@+id/btb_22"
+            android:text="M"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_23"
+            android:text="N"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_24"
+            android:text="P"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_25"
+            android:text="Q"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle"/>
+        <Button
+            android:id="@+id/btb_26"
+            android:text="R"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_27"
+            android:text="S"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_28"
+            android:text="T"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_29"
+            android:text="U"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle"/>
+        <Button
+            android:id="@+id/btb_30"
+            android:text="V"
+            style="@style/btnNumberStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llt_number4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:layout_marginRight="12dp"/>
+
+
+        <Button
+            android:id="@+id/btb_31"
+            android:text="W"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_32"
+            android:text="X"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_33"
+            android:text="Y"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle" />
+        <Button
+            android:id="@+id/btb_34"
+            android:text="Z"
+            android:layout_marginRight="6dp"
+            style="@style/btnNumberStyle"/>
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:layout_marginRight="12dp"/>
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_remove_edittext_data"
+            android:padding="7dp"
+            android:layout_weight="2"
+            android:background="@drawable/bg_delete_shape"
+            android:layout_marginLeft="6dp"/>
+    </LinearLayout>
+</LinearLayout>

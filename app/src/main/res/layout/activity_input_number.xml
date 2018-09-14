@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="37dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/icon_left_black_arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="输入车牌"
+        android:textColor="#3e3e3e"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_back" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="请输入车牌号码，享受更优质的服务"
+        android:textColor="#b9b9b9"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+    <LinearLayout
+        android:id="@+id/llt_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2">
+
+        <TextView
+            android:id="@+id/tv_id1"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_vehicle_number_selected"
+            android:gravity="center"
+            android:tag="0"
+            android:textColor="#4a4a4a"
+            android:textSize="16sp"
+            tools:text="京" />
+
+        <TextView
+            android:id="@+id/tv_id2"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_vehicle_number_normal"
+            android:gravity="center"
+            android:tag="1"
+            android:textColor="#4a4a4a"
+            android:textSize="16sp"
+            tools:text="京" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="0.3"
+            android:src="@drawable/icon_dot" />
+
+        <TextView
+            android:id="@+id/tv_id3"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_vehicle_number_normal"
+            android:gravity="center"
+            android:tag="2"
+            android:textColor="#4a4a4a"
+            android:textSize="16sp"
+            tools:text="京" />
+
+        <TextView
+            android:id="@+id/tv_id4"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_vehicle_number_normal"
+            android:gravity="center"
+            android:tag="3"
+            android:textColor="#4a4a4a"
+            android:textSize="16sp"
+            tools:text="京" />
+
+        <TextView
+            android:id="@+id/tv_id5"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_vehicle_number_normal"
+            android:gravity="center"
+            android:tag="4"
+            android:textColor="#4a4a4a"
+            android:textSize="16sp"
+            tools:text="京" />
+
+        <TextView
+            android:id="@+id/tv_id6"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_vehicle_number_normal"
+            android:gravity="center"
+            android:tag="5"
+            android:textColor="#4a4a4a"
+            android:textSize="16sp"
+            tools:text="京" />
+
+        <TextView
+            android:id="@+id/tv_id7"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_vehicle_number_normal"
+            android:gravity="center"
+            android:tag="6"
+            android:textColor="#4a4a4a"
+            android:textSize="16sp"
+            tools:text="京" />
+
+        <RelativeLayout
+            android:id="@+id/rlt_id8"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_vehicle_number_dash"
+            android:gravity="center"
+            android:tag="7">
+
+            <ImageView
+                android:id="@+id/iv_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/icon_add_8" />
+
+            <TextView
+                android:id="@+id/tv_id8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_add"
+                android:layout_centerInParent="true"
+                android:text="新能源"
+                android:textColor="#acacac"
+                android:textSize="8dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/llt_number"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/green_btn_selector"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="完  成"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llt_number" />
+
+    <com.example.wxz11.chinalicenseplate.VehicleBoardView
+        android:id="@+id/kbv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

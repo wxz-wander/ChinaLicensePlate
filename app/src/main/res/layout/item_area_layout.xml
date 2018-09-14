@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d6d9de"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:id="@+id/llt_area1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btb_1"
+            android:text="京"
+            style="@style/btnHanziStyle"
+            android:layout_marginRight="6dp"/>
+        <Button
+            android:id="@+id/btb_2"
+            android:text="津"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_3"
+            android:text="沪"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_4"
+            android:text="渝"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_5"
+            android:text="苏"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle"/>
+        <Button
+            android:id="@+id/btb_6"
+            android:text="浙"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_7"
+            android:text="豫"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_8"
+            android:text="粤"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_9"
+            android:text="川"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle"/>
+        <Button
+            android:id="@+id/btb_10"
+            android:text="陕"
+            style="@style/btnHanziStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llt_area2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.5"
+            android:layout_marginRight="3dp"/>
+
+        <Button
+            android:id="@+id/btb_11"
+            android:text="冀"
+            style="@style/btnHanziStyle"
+            android:layout_marginRight="6dp"/>
+        <Button
+            android:id="@+id/btb_12"
+            android:text="辽"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_13"
+            android:text="吉"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_14"
+            android:text="皖"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_15"
+            android:text="闽"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle"/>
+        <Button
+            android:id="@+id/btb_16"
+            android:text="鄂"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_17"
+            android:text="湘"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_18"
+            android:text="鲁"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_19"
+            android:text="晋"
+            style="@style/btnHanziStyle"/>
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="3dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llt_area3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.5"
+            android:layout_marginRight="3dp"/>
+
+        <Button
+            android:id="@+id/btb_20"
+            android:text="黑"
+            style="@style/btnHanziStyle"
+            android:layout_marginRight="6dp"/>
+        <Button
+            android:id="@+id/btb_21"
+            android:text="赣"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_22"
+            android:text="贵"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_23"
+            android:text="甘"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_24"
+            android:text="桂"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle"/>
+        <Button
+            android:id="@+id/btb_25"
+            android:text="琼"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_26"
+            android:text="云"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_27"
+            android:text="青"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_28"
+            android:text="蒙"
+            style="@style/btnHanziStyle"/>
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llt_area4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginRight="6dp"/>
+
+
+        <Button
+            android:id="@+id/btb_29"
+            android:text="藏"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_30"
+            android:text="宁"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_31"
+            android:text="新"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_32"
+            android:text="港"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle"/>
+        <Button
+            android:id="@+id/btb_33"
+            android:text="澳"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <Button
+            android:id="@+id/btb_34"
+            android:text="台"
+            android:layout_marginRight="6dp"
+            style="@style/btnHanziStyle" />
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginRight="6dp"/>
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:padding="7dp"
+            android:src="@drawable/icon_remove_edittext_data"
+            android:layout_weight="2"
+            android:background="@drawable/bg_delete_shape"
+            android:layout_marginLeft="6dp"/>
+    </LinearLayout>
+</LinearLayout>
