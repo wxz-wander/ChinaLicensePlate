@@ -8,7 +8,6 @@
         <item name="colorPrimary">@android:color/white</item>
         <item name="colorPrimaryDark">@android:color/white</item>
         <item name="colorAccent">@android:color/white</item>
-        <item name="android:windowIsTranslucent">true</item>
         <!--<item name="android:windowTranslucentStatus">true</item>-->
         <!--&lt;!&ndash;windowLightStatusBar位true,状态栏字体颜色和图标会变成灰色，为false时状态栏字体图标都会变成白色&ndash;&gt;-->
         <item name="android:windowLightStatusBar">true</item>
